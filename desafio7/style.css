@@ -1,0 +1,7 @@
+.ribbon  {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   width: 100vw;
+   justify-content: flex-end;
+}

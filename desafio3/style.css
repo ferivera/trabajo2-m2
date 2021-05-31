@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+p {
+    margin: 10px 0 10px 0;
+}
+.contenedor {
+   margin: 20px;
+   width: 900px;
+   height: 900px;
+    }
+
+.bandera { 
+    display:inline-block;
+    width: 45%;
+    height: 10px;
+}
+
+/*bandera españa*/
+
+.banderaespaña {
+    background-color: red;
+    display: inline-block;
+    height: 200px;
+    width: 350px;
+    border: 1px solid gray; 
+    z-index: 10;
+}
+
+.diseñoespaña {
+    position: relative;
+    height: 100px;
+    top: 50px;
+    background-color: yellow;
+    z-index: 20;
+}
+
+.banderadinamarca {
+    background-color: white;
+    position: relative;
+    display:inline-block;
+    height: 200px;
+    width: 350px;
+    border: 1px solid gray; 
+    z-index: 10;
+    
+}
+
+.diseñodina1 {
+  height: 90px;
+  width: 90px;
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+    
+
+}
+
+.diseñodina2 {
+   
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    position: absolute;
+    top: 55%;
+   
+}
+
+.diseñodina3 {
+    height: 90px;
+    width: 240.1px;
+    background-color: red;
+    margin-left: auto;
+   
+}
+
+.diseñodina4 {
+    height: 90px;
+    width: 240px;
+    background-color: red;
+    margin-left: 31%;
+    position: absolute;
+    top: 55%;
+
+
+}
+
+
+.banderaemiratos {
+    background-color: red;
+    position: relative;
+    display:inline-block;
+    height: 200px;
+    width: 350px;
+    border: 1px solid gray; 
+    z-index: 20;
+    
+}
+
+.diseñoemi1 {
+    background-color: green;
+    position: relative;
+    height: 66px;
+    width: 80%;
+    z-index: 20;
+    margin-left: 70px;
+
+
+  
+}
+
+.diseñoemi2 {
+    background-color: white;
+    position: relative;
+    height: 66px;
+    width: 80%;
+    z-index: 20;
+    margin-left: 70px;
+
+}
+
+.diseñoemi3 {
+    background-color: black;
+    position: relative;
+    height: 66px;
+    width: 80%;
+    z-index: 20;
+    margin-left: 70px;
+
+}
+
+.banderajapon {
+    background-color: white;
+    position: relative;
+    display:inline-block;
+    height: 200px;
+    width: 350px;
+    border: 1px solid gray; 
+    z-index: 20;
+
+}
+
+.diseñojapon{
+    width: 90px;
+    height: 90px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: red;
+    margin-left: 120px;
+    margin-top: 50px;
+}
